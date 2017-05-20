@@ -1,3 +1,7 @@
-.idea
-output_images
+/.idea
+/output_images
 .DS*
+/.ipynb_checkpoints
+/non-vehicles
+/vehicles
+/videos_out
