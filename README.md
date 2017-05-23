@@ -23,7 +23,7 @@ To identify vehicles in an image, we need an idea of what exactly we are looking
 
 ##### Spatial Features
 
-Spatial features are essentially the pixel values themselves. The image is resized and flattened out, and these values are used directly in our "signature." I used RGB values for this feature-set.
+Spatial features are essentially the pixel values themselves. The image is resized and flattened out, and these values are used directly in the "signature." I used RGB images for this feature-set.
 
 ##### Color Histogram Features
 
