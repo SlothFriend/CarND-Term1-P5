@@ -15,7 +15,7 @@ If you want to toy with the code, it's all in [pipeline.ipynb](https://github.co
 
 ### Extracting Features
 
-To identify vehicles in an image, we need an idea of what exactly we are looking for - we need a vehicle "signature." This signature must ultimately come from the pixel values themselves, because that's all the information we have to deal with. To create the vehicle signature, I extracted three different feature-sets:
+To identify vehicles in an image, we need an idea of what exactly we are looking for - we need a vehicle "signature." This signature must ultimately come from the pixel values themselves, because that's all the information we have. To create the vehicle signature, I extracted three different feature-sets:
 
 1. Spatial Features
 2. Color Histogram Features
