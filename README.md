@@ -43,7 +43,7 @@ Below is a random vehicle image the classifier was trained on, with the raw and 
 
 ### Sliding Window Search
 
-A trained classifier does no good unless you give it similar information on which it was trained. I trained the SVM on 64x64 pixel images, so I needed a way to pass it 64x64 cutouts of the larger images coming from the dash-cam. Specifically, I want the SVM to be passed 64x64 cutouts of the parts of the image that *have cars* so they can be identified. The closest I can get to knowing where the cars will be in the image without using the classifier is the bottom half, roughly. Thus, I performed a sliding window search in the bottom half of the image to produce windows that will be tested to see if they contain a vehicle. 
+A trained classifier does no good unless you give it similar information on which it was trained. I trained the SVM on 64x64 pixel images, so I needed a way to pass it 64x64 cutouts of the larger images coming from the dash-cam. Specifically, I want the SVM to be passed 64x64 cutouts of the parts of the image that *have cars* so they can be identified. The closest I can get to knowing where the cars will be in the image without using the classifier is the bottom half, roughly. Thus, I performed a sliding window search (with overlap) in the bottom half of the image to produce windows that will be tested to see if they contain a vehicle. 
 
 Original Image | Windows Searched (Size by Color)
 :---: | :---:
