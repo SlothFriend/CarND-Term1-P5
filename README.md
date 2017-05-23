@@ -27,7 +27,7 @@ Spatial features are essentially the pixel values themselves. The image is resiz
 
 ##### Color Histogram Features
 
-A color histogram totals the number of pixel values that fall into X evenly-distributed bins for the image's color spectrum. These "color bin" totals are added on to the vehicle signature. I chose to use 32 color bins and images in the HSV color space for this feature-set.
+A color histogram totals the number of pixel values that fall into evenly-distributed bins for the image's color spectrum. These "color bin" totals are added on to the vehicle signature. I chose to use 32 color bins and images in the HSV color space for this feature-set.
 
 ##### HOG (Histogram of Oriented Gradients) Features
 
