@@ -53,7 +53,7 @@ Original Image | Windows Searched (Size by Color)
 
 The sliding window search produces many windows - potentially hundreds! Each of these windows is an image that will be tested with the classifier, meaning each image needs to have features extracted for it. This is the main bottleneck of the pipeline.
 
-Nevertheless, once features are extracted for each window-image and classified, the windows containing vehicles remain. Unfortunately, these windows usually don't produce nice, single bounding boxes around the vehicles like we want. To reach a single bounding box per vehicle a heatmap is implemented, and a new bounding box is drawn around the "hot" areas. Results before and after the heatmap are shown below.
+Nevertheless, once features are extracted for each window-image and classified, the windows containing vehicles remain. Unfortunately, these windows usually don't produce nice, single bounding boxes around the vehicles like we want. To reach a single bounding box per vehicle, a heatmap is implemented, and a new bounding box is drawn around the "hot" areas. Results before and after the heatmap are shown below.
 
 Windows with Vehicles | Vehicle Windows After Heatmap
 :---: | :---:
