@@ -11,6 +11,8 @@ The 17,000+ images used to train the classifier can be downloaded here:
 * [Vehicles](https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/vehicles.zip)
 * [Non-Vehicles](https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/non-vehicles.zip)
 
+A Medium write-up of this project can be found [here](https://medium.com/@SealedSaint/vehicle-detection-using-cameras-for-self-driving-cars-db806dcccf65).
+
 ### Overview
 
 1. Extracting Features
